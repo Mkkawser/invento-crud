@@ -22,7 +22,7 @@ function UpdateTodoForm({ data }) {
         type="text"
         className="border outline-double"
         value={titles}
-        placeholder="update data"
+        placeholder="Click icon & update data"
         onChange={(e) => setTitles(e.target.value)}
       />
       <button type="submit">
